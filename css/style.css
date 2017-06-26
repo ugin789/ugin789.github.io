@@ -1,0 +1,150 @@
+@import url(reset.css);
+
+body {
+	background: url(../images/main_bg.png);
+	font: 14px/1.5 Arial, Verdana, sans-serif;
+	color: #353535;
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+a {
+	color: #353535;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#header {
+	overflow: hidden;
+}
+
+#logo {
+	width: 224px;
+	height: 46px;
+	float: left;
+	margin-left: 12px;
+	padding-top: 11px;
+	
+}
+
+#menu {
+	width: 1200px;
+	height: 70px;
+	background: url(../images/menu_bg.png) no-repeat;
+}
+
+#menu ul {
+	padding-left: 60px;
+	padding-top: 24px;
+	overflow: hidden;
+}
+
+#menu ul li {
+	float: left;
+	font: bold 18px Arial, Verdana, sans-serif; 
+	color: #ffffff;
+	margin-right: 70px;
+}
+
+#menu ul li a {
+	color: #ffffff;
+	display: block;
+	line-height: 1;
+}
+
+#menu ul li a:hover, #menu .current {
+	text-decoration: none;
+	border-bottom: 2px solid #ffffff;
+}
+
+#menu ul li span {
+	color: #ff1600;
+}
+
+#menu .phone {
+	float: right;
+	margin-right: 40px;
+	line-height: 1;
+}
+
+.divider {
+	width: 552px;
+	height: 36px;
+	background: url(../images/divider.png) no-repeat;
+	margin: 3px auto 27px auto;
+}
+
+#content {
+	width: 590px;
+	margin: 0 auto;
+}
+
+.red-headline {
+	font-size: 30px;
+	font-weight: bold;
+	color: #a03131;
+	margin-top: 28px;
+}
+
+#social {
+	width: 300px;
+	margin: 15px auto 7px auto;
+}
+
+#social li {
+	text-align: left;
+	height: 39px;
+	padding-left: 60px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#social li a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#facebook {
+	background: url(../images/facebook.png) no-repeat;
+}
+
+#twitter {
+	background: url(../images/twitter.png) no-repeat;
+}
+
+#rss {
+	background: url(../images/rss.png) no-repeat;
+}
+
+#dribble {
+	background: url(../images/dribble.png) no-repeat;
+}
+
+#linkedin {
+	background: url(../images/linkedin.png) no-repeat;
+}
+
+#footer {
+	padding-bottom: 27px;
+}
+
+#footer p {
+	color: #a03131;
+}
